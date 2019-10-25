@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import com.artsoft.examapp.core.interfaces.util.UnTestable;
 import com.artsoft.examapp.core.model.subject.Biology;
 import com.artsoft.examapp.core.model.subject.Chemistry;

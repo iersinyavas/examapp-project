@@ -29,7 +29,7 @@ public class MathOne extends DigitalSubject implements UnTestable{
 
 	@Override
 	public String getSubjectName() {
-		return SubjectNameKey.MATH_YGS;
+		return SubjectNameKey.MATH;
 	}
 
 	@Override
@@ -46,5 +46,4 @@ public class MathOne extends DigitalSubject implements UnTestable{
 	public String getSubjectNameKey(ExamRequirement examRequirement) {
 		return examRequirement.getSubjectNameKey(this);
 	}
-
 }

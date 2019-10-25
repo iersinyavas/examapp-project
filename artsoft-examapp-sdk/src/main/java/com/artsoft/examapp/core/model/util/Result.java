@@ -3,7 +3,6 @@ package com.artsoft.examapp.core.model.util;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.artsoft.examapp.core.interfaces.util.Exam;
 import com.artsoft.examapp.core.interfaces.util.NetRule;
 import com.artsoft.examapp.core.interfaces.util.Score;
 import com.artsoft.examapp.core.interfaces.util.Testable;
@@ -18,7 +17,6 @@ public class Result {
 	private Score score;
 	private float net;
 	List<Testable> testableList;
-	private Exam exam;
 
 	Map<String, Float> scoreSubjectMap;
 	Map<String, Map<String, Float>> allScore;
